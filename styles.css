@@ -1,0 +1,30 @@
+#title {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 100px;
+  padding-top: 8%;
+  text-shadow: 2px 5px 5px black;
+}
+
+#info {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 25px;
+  text-shadow: 2px 5px 5px black;
+  padding-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+img {
+  margin-top: 25px;
+}
+
+html, body, .row{
+  height: 100%;
+}
+
+body {
+  background: url("./background.jpg") fixed;
+  background-size: cover;
+}
