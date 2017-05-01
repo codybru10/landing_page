@@ -16,8 +16,22 @@
   margin-right: 10%;
 }
 
-img {
+.icons {
+  color: white;
+}
+
+hr{
+  width: 75%;
+}
+
+i {
+  padding: 10px;
+}
+
+.img-circle {
   margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 50%;
 }
 
 html, body, .row{
