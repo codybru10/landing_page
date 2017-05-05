@@ -35,9 +35,17 @@ i {
 }
 
 .project_shots {
-  height: 45%;
-  width: 42%;
+  height: 100%;
+  width: 95%;
   padding: 5%;
+}
+
+.sub-titles {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 55px;
+  /*padding-top: 2%;*/
+  text-shadow: 2px 5px 5px black;
 }
 
 html, body, .row{
@@ -45,6 +53,7 @@ html, body, .row{
 }
 
 body {
-  background: url("./background.jpg") fixed;
+  background: url("./images/background.jpg") fixed;
   background-size: cover;
+  position: relative;
 }

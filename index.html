@@ -9,7 +9,17 @@
     <script src="./scripts.js"type="text/javascript"></script>
     <title>Cody</title>
   </head>
-  <body>
+  <body data-spy="scroll">
+
+    <nav>
+      <ul class="nav nav-tabs">
+        <li><a href="#title">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
     <h1 id="title"><center>Cody Brubaker</center></h1>
 
     <center>
@@ -19,7 +29,39 @@
     </center>
 
     <center>
-      <img src="./me.jpg" alt="A photo of me" class="img-circle"/>
+      <img src="./images/me.jpg" alt="A photo of me" class="img-circle"/>
+    </center>
+
+    <center>
+      <button type="button" name="button" class="btn white">Available for Hire</button>
+    </center>
+    <hr>
+
+    <center>
+      <h3 class="sub-titles" id="projects">Projects</h3>
+    </center>
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <a href="https://banknotes-epicodus.herokuapp.com/">
+          <img class="project_shots" src="./images/bank_notes.png" alt="Picture of Bank Notes Project" href="https://banknotes-epicodus.herokuapp.com/" />
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="https://protected-caverns-97027.herokuapp.com/">
+          <img class="project_shots" src="./images/project2.png" alt="Picture of QuickTrack Project" href="https://protected-caverns-97027.herokuapp.com/" />
+        </a>
+      </div>
+
+    </div>
+
+    <center>
+      <h3 class="sub-titles" id="skills">Skills</h3>
+    </center>
+
+    <center>
+      <h3 class="sub-titles" id="contact">Contact</h3>
     </center>
 
     <div class="icons">
@@ -28,9 +70,6 @@
         <a href="https://www.linkedin.com/in/cody-brubaker/" ><i class="fa fa-linkedin fa-3x" aria-hidden="true" style="color:white"></i></a>
       </center>
     </div>
-    <hr>
-
-    <img class="project_shots" src="./bank_notes.png" alt="Picture of Bank Notes Project" />
 
     <br>
   </body>
