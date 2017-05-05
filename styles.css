@@ -55,5 +55,8 @@ html, body, .row{
 body {
   background: url("./images/background.jpg") fixed;
   background-size: cover;
+}
+
+nav {
   position: relative;
 }

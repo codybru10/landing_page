@@ -1,11 +1,8 @@
 $( document ).ready(function() {
-  $('.well').click(function() {
 
-    alert( "ready!" );
-  });
 
-  $('body').scrollspy({ target: '#about' })
-  $('body').scrollspy({ target: '#projects' })
-  $('body').scrollspy({ target: '#skills' })
-  $('body').scrollspy({ target: '#contact' })
+  $('nav').scrollspy({ target: '#about' })
+  $('nav').scrollspy({ target: '#projects' })
+  $('nav').scrollspy({ target: '#skills' })
+  $('nav').scrollspy({ target: '#contact' })
 });
